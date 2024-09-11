@@ -96,7 +96,9 @@ groups:
 #    - op or "*" permission
 #    - command-specific / group / general command bypass permission
 #
-blocked-command-message: "%prefix% &cUnknown Command"
-cmd-arg-not-found-message: "%prefix% &cUnknown argument %arg%"
-reset-confirm-message: "%prefix% &c&lWARNING: &Cyou are about to reset the config file, &C&Lthis action is IRREVERSIBLE&7, type /cmdblock reset CONFIRM to confirm"
+messages:
+  blocked-command: "%prefix% &cUnknown Command"
+  cmd-arg-not-found: "%prefix% &cUnknown argument %arg%"
+  reset-confirm: "%prefix% &c&lWARNING: &Cyou are about to reset the config file, &C&Lthis action is IRREVERSIBLE&7, type /cmdblock reset CONFIRM to confirm"
+
 #
